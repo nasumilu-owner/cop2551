@@ -7,9 +7,6 @@ using System.Windows.Forms;
 namespace Project1
 {
     /// <summary>
-    /// I am hanging in there Visual Studio in my opinion is the most awkward IDE every created. 
-    /// Honestly, it was almost 6 GB just to install this beast. If it were not for having to use 
-    /// the Windows Form .NET I would use Mono. Even Mono never felt right :-(
     /// 
     /// </summary>
     public partial class CardDisplayForm : Form

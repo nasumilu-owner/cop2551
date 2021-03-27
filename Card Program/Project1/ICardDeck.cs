@@ -6,18 +6,6 @@ using System.Threading.Tasks;
 
 namespace Project1
 {
-    /// <summary>
-    /// I have always found it silly to prefix a class with an I to indicate its a interface
-    /// When the API is programmed correctly the interface is almost always what you will 
-    /// interact with not its underlying implementation. Especially with DependencyInjection. 
-    /// Then again I find alot of Microsoft stuff peculiar and haphazardly bloated.
-    /// Though I have seen a fair share of Java applications that should get sunset and 
-    /// redesigned.
-    /// 
-    /// I would have create an abstract class which would have handled much of this classes 
-    /// implementation but since I have already thinked this simple project, I will keep it 
-    /// as is. 
-    /// </summary>
     interface ICardDeck
     {
         /// <summary>
