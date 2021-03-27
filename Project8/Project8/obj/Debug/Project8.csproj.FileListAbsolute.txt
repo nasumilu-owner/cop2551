@@ -1,0 +1,11 @@
+C:\Users\mlucas\source\repos\Project8\Project8\bin\Debug\Project8.exe.config
+C:\Users\mlucas\source\repos\Project8\Project8\bin\Debug\Project8.exe
+C:\Users\mlucas\source\repos\Project8\Project8\bin\Debug\Project8.pdb
+C:\Users\mlucas\source\repos\Project8\Project8\obj\Debug\Project8.Data.UI.OpenFileDialog.resources
+C:\Users\mlucas\source\repos\Project8\Project8\obj\Debug\Project8.Data.UI.OpenUriDialog.resources
+C:\Users\mlucas\source\repos\Project8\Project8\obj\Debug\Project8.MainForm.resources
+C:\Users\mlucas\source\repos\Project8\Project8\obj\Debug\Project8.Properties.Resources.resources
+C:\Users\mlucas\source\repos\Project8\Project8\obj\Debug\Project8.csproj.GenerateResource.cache
+C:\Users\mlucas\source\repos\Project8\Project8\obj\Debug\Project8.csproj.CoreCompileInputs.cache
+C:\Users\mlucas\source\repos\Project8\Project8\obj\Debug\Project8.exe
+C:\Users\mlucas\source\repos\Project8\Project8\obj\Debug\Project8.pdb

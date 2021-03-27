@@ -1,0 +1,13 @@
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\bin\Debug\Project5.exe.config
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\bin\Debug\Project5.exe
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\bin\Debug\Project5.pdb
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.FlushChargeControl.resources
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.MiscChargeControl.resources
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.OtherChargeControl.resources
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.PosLube.resources
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.Properties.Resources.resources
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.LubeChargeControl.resources
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.csproj.GenerateResource.cache
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.csproj.CoreCompileInputs.cache
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.exe
+C:\Users\mlucas\source\repos\POSAutoRepair\Project5\obj\Debug\Project5.pdb

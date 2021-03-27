@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B8C0EC9-B0E4-4A32-84B9-9EDB89A34C83}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project1</RootNamespace>
+    <AssemblyName>Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CardDeck52.cs" />
+    <Compile Include="CardDisplayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardDisplayForm.Designer.cs">
+      <DependentUpon>CardDisplayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ICardDeck.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CardDisplayForm.resx">
+      <DependentUpon>CardDisplayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Card.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Cards\Large\2_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\2_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\2_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\2_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\3_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\3_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\3_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\3_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\4_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\4_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\4_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\4_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\5_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\5_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\5_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\5_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\6_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\6_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\6_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\6_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\7_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\7_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\7_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\7_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\8_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\8_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\8_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\8_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\9_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\9_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\9_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\9_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\10_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\10_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\10_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\10_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\Ace_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\Ace_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\Ace_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\Ace_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\Backface_Blue.jpg" />
+    <None Include="bin\Debug\Cards\Large\Backface_Red.jpg" />
+    <None Include="bin\Debug\Cards\Large\Jack_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\Jack_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\Jack_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\Jack_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\Joker_Black.jpg" />
+    <None Include="bin\Debug\Cards\Large\Joker_Red.jpg" />
+    <None Include="bin\Debug\Cards\Large\King_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\King_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\King_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\King_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Large\Queen_Clubs.jpg" />
+    <None Include="bin\Debug\Cards\Large\Queen_Diamonds.jpg" />
+    <None Include="bin\Debug\Cards\Large\Queen_Hearts.jpg" />
+    <None Include="bin\Debug\Cards\Large\Queen_Spades.jpg" />
+    <None Include="bin\Debug\Cards\Small\2_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\2_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\2_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\2_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\3_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\3_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\3_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\3_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\4_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\4_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\4_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\4_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\5_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\5_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\5_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\5_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\6_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\6_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\6_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\6_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\7_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\7_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\7_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\7_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\8_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\8_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\8_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\8_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\9_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\9_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\9_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\9_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\10_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\10_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\10_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\10_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\Ace_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\Ace_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\Ace_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\Ace_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\Backface_Blue.bmp" />
+    <None Include="bin\Debug\Cards\Small\Backface_Red.bmp" />
+    <None Include="bin\Debug\Cards\Small\Jack_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\Jack_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\Jack_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\Jack_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\Joker_Black.bmp" />
+    <None Include="bin\Debug\Cards\Small\Joker_Red.bmp" />
+    <None Include="bin\Debug\Cards\Small\King_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\King_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\King_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\King_Spades.bmp" />
+    <None Include="bin\Debug\Cards\Small\Queen_Clubs.bmp" />
+    <None Include="bin\Debug\Cards\Small\Queen_Diamonds.bmp" />
+    <None Include="bin\Debug\Cards\Small\Queen_Hearts.bmp" />
+    <None Include="bin\Debug\Cards\Small\Queen_Spades.bmp" />
+    <Content Include="Cards\Poker Large\10_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\10_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\10_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\10_Spades.jpg" />
+    <Content Include="Cards\Poker Large\2_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\2_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\2_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\2_Spades.jpg" />
+    <Content Include="Cards\Poker Large\3_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\3_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\3_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\3_Spades.jpg" />
+    <Content Include="Cards\Poker Large\4_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\4_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\4_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\4_Spades.jpg" />
+    <Content Include="Cards\Poker Large\5_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\5_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\5_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\5_Spades.jpg" />
+    <Content Include="Cards\Poker Large\6_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\6_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\6_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\6_Spades.jpg" />
+    <Content Include="Cards\Poker Large\7_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\7_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\7_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\7_Spades.jpg" />
+    <Content Include="Cards\Poker Large\8_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\8_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\8_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\8_Spades.jpg" />
+    <Content Include="Cards\Poker Large\9_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\9_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\9_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\9_Spades.jpg" />
+    <Content Include="Cards\Poker Large\Ace_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\Ace_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\Ace_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\Ace_Spades.jpg" />
+    <Content Include="Cards\Poker Large\Backface_Blue.jpg" />
+    <Content Include="Cards\Poker Large\Backface_Red.jpg" />
+    <Content Include="Cards\Poker Large\Jack_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\Jack_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\Jack_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\Jack_Spades.jpg" />
+    <Content Include="Cards\Poker Large\Joker_Black.jpg" />
+    <Content Include="Cards\Poker Large\Joker_Red.jpg" />
+    <Content Include="Cards\Poker Large\King_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\King_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\King_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\King_Spades.jpg" />
+    <Content Include="Cards\Poker Large\Queen_Clubs.jpg" />
+    <Content Include="Cards\Poker Large\Queen_Diamonds.jpg" />
+    <Content Include="Cards\Poker Large\Queen_Hearts.jpg" />
+    <Content Include="Cards\Poker Large\Queen_Spades.jpg" />
+    <Content Include="Cards\Poker Small\10_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\10_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\10_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\10_Spades.bmp" />
+    <Content Include="Cards\Poker Small\2_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\2_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\2_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\2_Spades.bmp" />
+    <Content Include="Cards\Poker Small\3_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\3_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\3_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\3_Spades.bmp" />
+    <Content Include="Cards\Poker Small\4_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\4_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\4_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\4_Spades.bmp" />
+    <Content Include="Cards\Poker Small\5_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\5_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\5_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\5_Spades.bmp" />
+    <Content Include="Cards\Poker Small\6_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\6_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\6_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\6_Spades.bmp" />
+    <Content Include="Cards\Poker Small\7_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\7_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\7_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\7_Spades.bmp" />
+    <Content Include="Cards\Poker Small\8_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\8_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\8_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\8_Spades.bmp" />
+    <Content Include="Cards\Poker Small\9_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\9_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\9_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\9_Spades.bmp" />
+    <Content Include="Cards\Poker Small\Ace_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\Ace_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\Ace_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\Ace_Spades.bmp" />
+    <Content Include="Cards\Poker Small\Backface_Blue.bmp" />
+    <Content Include="Cards\Poker Small\Backface_Red.bmp" />
+    <Content Include="Cards\Poker Small\Jack_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\Jack_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\Jack_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\Jack_Spades.bmp" />
+    <Content Include="Cards\Poker Small\Joker_Black.bmp" />
+    <Content Include="Cards\Poker Small\Joker_Red.bmp" />
+    <Content Include="Cards\Poker Small\King_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\King_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\King_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\King_Spades.bmp" />
+    <Content Include="Cards\Poker Small\Queen_Clubs.bmp" />
+    <Content Include="Cards\Poker Small\Queen_Diamonds.bmp" />
+    <Content Include="Cards\Poker Small\Queen_Hearts.bmp" />
+    <Content Include="Cards\Poker Small\Queen_Spades.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

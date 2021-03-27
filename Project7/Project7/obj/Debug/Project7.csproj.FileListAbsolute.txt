@@ -1,0 +1,12 @@
+C:\Users\mlucas\source\repos\Project7\Project7\bin\Debug\Project7.exe.config
+C:\Users\mlucas\source\repos\Project7\Project7\bin\Debug\Project7.exe
+C:\Users\mlucas\source\repos\Project7\Project7\bin\Debug\Project7.pdb
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.slotForm.resources
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.Properties.Resources.resources
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.Reel.resources
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.ReelSet.resources
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.BankView.resources
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.csproj.GenerateResource.cache
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.csproj.CoreCompileInputs.cache
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.exe
+C:\Users\mlucas\source\repos\Project7\Project7\obj\Debug\Project7.pdb

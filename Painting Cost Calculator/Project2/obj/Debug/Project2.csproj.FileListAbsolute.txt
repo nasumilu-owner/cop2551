@@ -1,0 +1,9 @@
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\bin\Debug\Painting Cost Calculator.exe.config
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\bin\Debug\Painting Cost Calculator.exe
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\bin\Debug\Painting Cost Calculator.pdb
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\obj\Debug\Project2.PaintingCostCalculator.resources
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\obj\Debug\Project2.Properties.Resources.resources
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\obj\Debug\Project2.csproj.GenerateResource.cache
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\obj\Debug\Project2.csproj.CoreCompileInputs.cache
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\obj\Debug\Painting Cost Calculator.exe
+C:\Users\mlucas\source\repos\Painting Cost Calculator\Project2\obj\Debug\Painting Cost Calculator.pdb
