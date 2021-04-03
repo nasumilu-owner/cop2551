@@ -3,7 +3,7 @@
 ## Description
 This course is a continuation of structured programming concepts using a C based programming language. This includes techniques for algorithm development, coding and testing. This course will delve into object oriented programming concepts including encapsulation, inheritance, and polymorphism. In addition, concepts with arrays, pointers and dynamic allocation, vectors, C-strings and the string class, advanced file and I/O operations, recursion, and virtual functions will be covered. The course uses programming assignments to reinforce the material in each chapter.[^1]
 
-Professor: [Debbi Reid](https://www.sfcollege.edu/ite/contact/index) 
+Professor: [Debbie Reid](https://www.sfcollege.edu/ite/contact/index) 
 
 ## Projects
 - [Card Program (a.k.a. Project 1)](https://github.com/nasumilu-owner/cop2551/tree/main/Card%20Program) intro form using `PictureBox` control
