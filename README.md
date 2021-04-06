@@ -6,13 +6,13 @@ This course is a continuation of structured programming concepts using a C based
 Professor: [Debbie Reid](https://www.sfcollege.edu/ite/contact/index) 
 
 ## Projects
-- [Card Program (a.k.a. Project 1)](https://github.com/nasumilu-owner/cop2551/tree/main/Card%20Program) intro form using `PictureBox` control
-- [Painting Cost Calculator (a.k.a Project 2)](https://github.com/nasumilu-owner/cop2551/tree/main/Painting%20Cost%20Calculator) a paint cost estimation application. 
-- [Project 3 (a.k.a SAEConverter)](https://github.com/nasumilu-owner/cop2551/tree/main/Project3) convertes value a value between SAE units.
-- [Dice Game (a.k.a. Project 4)](https://github.com/nasumilu-owner/cop2551/tree/main/DiceGame) Simple dice game
-- [POSAutoRepair (a.k.a. Project 5)](https://github.com/nasumilu-owner/cop2535/tree/main/Project%205) simple point-of-sale applciation
-- [Project 6](https://github.com/nasumilu-owner/cop2551/tree/main/Project6) application which reads and analyze input file
-- [Project 7](https://github.com/nasumilu-owner/cop2551/tree/main/Project7) simulates a rather ugly slot machine. 
-- [Project 8](https://github.com/nasumilu-owner/cop2551/tree/main/Project8) application reads student data into a list adds searching capability to that list. Additional input adapters are provided which allows student data read in via HTTP.
+- [Card Program (a.k.a. Project 1)](./Card%20Program/) intro form using `PictureBox` control
+- [Painting Cost Calculator (a.k.a Project 2)](./Painting%20Cost%20Calculator/) a paint cost estimation application. 
+- [Project 3 (a.k.a SAEConverter)](./Project3/) convertes value a value between SAE units.
+- [Dice Game (a.k.a. Project 4)](./DiceGame/) Simple dice game
+- [POSAutoRepair (a.k.a. Project 5)](./Project%205/) simple point-of-sale applciation
+- [Project 6](./Project6/) application which reads and analyze input file
+- [Project 7](./Project7/) simulates a rather ugly slot machine. 
+- [Project 8](./Project8/) application reads student data into a list adds searching capability to that list. Additional input adapters are provided which allows student data read in via HTTP.
 
 [^1]:https://catalog.sfcollege.edu/preview_course.php?catoid=4&coid=1663&print
